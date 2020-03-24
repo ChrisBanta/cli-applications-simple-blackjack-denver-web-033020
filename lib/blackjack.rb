@@ -3,12 +3,12 @@ def welcome
 end
 
 def deal_card
-  first_card = rand(10) + 1
-  return first_card
+  card = rand(10) + 1
+  return card
 end
 
-def display_card_total
-  card_total = first_card
+def display_card_total(card)
+  
   puts card_total
 end
 
