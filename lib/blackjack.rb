@@ -30,8 +30,17 @@ card
 end
 
 def hit?
-  # code hit? here
-end
+  prompt_user
+  case get_user_input
+  when "s"
+  x 
+  when "h"
+  x += deal_card
+  when others
+  invalid_command
+  end
+ end
+
 
 def invalid_command
   # code invalid_command here
