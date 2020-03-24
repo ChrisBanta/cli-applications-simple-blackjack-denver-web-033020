@@ -37,13 +37,14 @@ def hit?
   card_total
   else
   invalid_command
+  get_user_input
   end
  end
 
 
 def invalid_command
   puts 'Please enter a valid command'
-  
+
 end
 
 #####################################################
