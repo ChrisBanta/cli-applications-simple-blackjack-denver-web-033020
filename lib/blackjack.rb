@@ -20,7 +20,7 @@ a
 end
 
 def end_game(x)
- puts "Sorry, you hit #{x}. Thanks fir playing!"
+ puts "Sorry, you hit #{x}. Thanks for playing!"
 end
 
 def initial_round
