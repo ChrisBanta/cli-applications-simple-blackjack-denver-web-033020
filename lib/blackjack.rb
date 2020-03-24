@@ -6,15 +6,15 @@ def deal_card
   card = rand(10) + 1
 end
 
-def display_card_total(card)
-   puts "Your cards add up to #{card}"
+def display_card_total(card_total)
+   puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
   puts "Type 'h' to hit or 's' to stay"
 end
 
-def get_user_input(a = gets.chomp)
+def get_user_input
 a
   # code #get_user_input here
 end
@@ -31,12 +31,12 @@ end
 
 def hit?
   prompt_user
-  case get_user_input
-  when "s"
-  x
-  when "h"
-  x += deal_card
-  when others
+  user_input = get_user_input
+  if user_input == "h"
+  card_total += deal_card
+  elsif user_input == "s"
+  card_total
+  else
   invalid_command
   end
  end
