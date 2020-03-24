@@ -19,8 +19,8 @@ a
   # code #get_user_input here
 end
 
-def end_game
-  # code #end_game here
+def end_game(x)
+ puts "Sorry, you hit #{x}. Thanks fir playing!"
 end
 
 def initial_round
