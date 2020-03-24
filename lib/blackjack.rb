@@ -33,7 +33,7 @@ def hit?
   prompt_user
   case get_user_input
   when "s"
-  x 
+  x
   when "h"
   x += deal_card
   when others
